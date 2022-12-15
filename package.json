@@ -55,6 +55,7 @@
     "react": "0.0.0-experimental-f0efa1164-20220901",
     "react-app-rewire-alias": "^1.1.7",
     "react-bootstrap": "1.6.1",
+    "react-data-table-component": "^7.5.3",
     "react-dom": "0.0.0-experimental-f0efa1164-20220901",
     "react-i18next": "11.18.5",
     "react-redux": "8.0.2",

@@ -19,6 +19,10 @@ export const MENU: IMenuItem[] = [
     path: '/'
   },
   {
+    name:i18n.t('menusidebar.label.categories'),
+    path:'/categories'
+  },
+  {
     name: i18n.t('menusidebar.label.blank'),
     path: '/blank'
   },

@@ -18,6 +18,7 @@ import Profile from '@pages/profile/Profile';
 
 import PublicRoute from './routes/PublicRoute';
 import PrivateRoute from './routes/PrivateRoute';
+import Categories from '@pages/Categories';
 
 const App = () => {
   const windowSize = useWindowSize();
@@ -53,6 +54,8 @@ const App = () => {
             <Route path="/blank" element={<Blank />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/" element={<Dashboard />} />
+            <Route path="/categories" element={<Categories />} />
+
           </Route>
         </Route>
       </Routes>
